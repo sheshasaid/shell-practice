@@ -1,10 +1,10 @@
 #!/bin/bash
 
-START_TIME=$(+%S)
+START_TIME=$(+%s)
 
 sleep 10 &
 
-END_TIME=$(+%S)
+END_TIME=$(+%s)
 
 TOTAL_TIME=$(START_TIME-END_TIME)
 
