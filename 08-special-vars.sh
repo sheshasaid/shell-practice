@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "All name are here : $@"
-echo "All are people are here only : $*"
+echo "All names are here : $@"
+echo "All names are here : $*"
