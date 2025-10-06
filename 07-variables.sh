@@ -1,9 +1,11 @@
 #!/bin/bash
 
-#DATE=$(date)
+START_TIME=$(+%S)
 
-#echo "Time stamp is: $DATE"
+sleep 10 &
 
+END_TIME=$(+%S)
 
-LOG_DATE=$(date +%Y%m%d_%H%M%S)
-echo $LOG_DATE
+TOTAL_TIME=$(START_TIME-END_TIME)
+
+echo "Script executed in : TOTAL_TIME in seconds"
