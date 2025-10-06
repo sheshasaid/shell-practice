@@ -1,5 +1,9 @@
 #!/bin/bash
 
-DATE=$(date)
+#DATE=$(date)
 
-echo "Time stamp is: $DATE"
+#echo "Time stamp is: $DATE"
+
+
+LOG_DATE=$(date +%Y%m%d_%H%M%S)
+echo $LOG_DATE
