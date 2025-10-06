@@ -7,7 +7,7 @@ if [ $USERID -ne 0 ]; then
     exit 1
 fi
 
-VALIDATE(){ }
+VALIDATE(){ 
 dnf install mysql -y
 
 if [ $? -ne 0 ]; then
