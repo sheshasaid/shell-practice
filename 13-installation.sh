@@ -23,7 +23,7 @@ VALIDATE $? "MySQL"
 dnf install  nginx -y
 VALIDATE $? "Nginx"
 
-dnf install mongodb-mongosh -y
+dnf install mongodb -y
 VALIDATE $? "Mongosh"
 
 
