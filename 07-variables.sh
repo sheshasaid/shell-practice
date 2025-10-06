@@ -2,6 +2,7 @@
 
 START_TIME=$(date +%S)
 
+
 sleep 10 &
 
 END_TIME=$(date +%S)
